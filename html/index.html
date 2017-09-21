@@ -202,12 +202,33 @@
             <p>BEM stand for Block, Element, Modifier</p>
             <p>They are used as follows:</p>
             <ul>
-                <li>Block: The main building block for your component</li>
-                <li>Element: Elements inside the block. Notated by <code>__</code></li>
-                <li>Modifier: If your block or your element needs a modifier. Notated by <code>--</code></li>
+                <li>
+                    Block: The main building block for your component
+                    <ul>           
+                        <li> header </li>
+                        <li> menu </li>
+                        <li> btn </li>
+                    </ul>
+                </li>
+                <li>
+                    Element: Elements inside the block. Notated by <code>__</code>
+                    <ul>
+                        <li> link </li>
+                        <li> item </li>
+                        <li> title </li>
+                    </ul>
+                </li>
+                <li>
+                    Modifier: If your block or your element needs a modifier. Notated by <code>--</code>
+                    <ul>
+                        <li> warning </li>
+                        <li> big </li>
+                        <li> left </li>
+                    </ul>
+                </li>
             </ul>
-            <p>In the breadcrumb example, the component is the breadcrumb. Each like is an element, and the currently active page, has a modifier attached to it.</p>
-        </div>
+            <p>For more info <a href="http://getbem.com/introduction/" target="_blank">Visit BEM</a></p>
+            </div>
         <div class="col">
             <pre><code class="html">@@include('../dist/includes/html/bem.html')</code></pre>
         </div>
